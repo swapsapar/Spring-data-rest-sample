@@ -58,7 +58,7 @@
     <!-- Log Hibernate SQL queries to file (log level must be DEBUG to enable it) -->
     <logger name="org.hibernate.SQL" additivity="false">
         <level value="debug" />
-        <appender-ref ref="File" />
+        <appender-ref ref="Console" />
     </logger>
 
     <!-- log the param value in the prepared statement and the query result! (log level must be TRACE to enable it) -->
