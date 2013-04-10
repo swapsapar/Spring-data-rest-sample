@@ -10,25 +10,25 @@
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
     
-    <context-param>
-        <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:spring-data-rest/*.xml</param-value>
-    </context-param>
+    <!--<context-param>-->
+        <!--<param-name>contextConfigLocation</param-name>-->
+        <!--<param-value>classpath:spring-data-rest/*.xml</param-value>-->
+    <!--</context-param>-->
 
-    <listener>
-        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-    </listener>
+    <!--<listener>-->
+        <!--<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>-->
+    <!--</listener>-->
     
-    <servlet>
-        <servlet-name>exporter</servlet-name>
-        <servlet-class>org.springframework.data.rest.webmvc.RepositoryRestExporterServlet</servlet-class>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
+    <!--<servlet>-->
+        <!--<servlet-name>exporter</servlet-name>-->
+        <!--<servlet-class>org.springframework.data.rest.webmvc.RepositoryRestExporterServlet</servlet-class>-->
+        <!--<load-on-startup>1</load-on-startup>-->
+    <!--</servlet>-->
 
-    <servlet-mapping>
-        <servlet-name>exporter</servlet-name>
-        <url-pattern>/*</url-pattern>
-    </servlet-mapping>
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>exporter</servlet-name>-->
+        <!--<url-pattern>/*</url-pattern>-->
+    <!--</servlet-mapping>-->
     
     
 </web-app>
